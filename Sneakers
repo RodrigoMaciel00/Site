@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Changa:wght@285&family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500&display=swap');
+      </style>
+    <title>Sneakers</title>
+    
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <li> <img src="./logo.svg" class="logo"></li>
+            <li class="list1">Collections</li>
+            <li class="list">Men</li>
+            <li class="list">Women</li>
+            <li class="list">About</li>
+            <li class="list">Contact</li>
+            <li > <img src="./icon-cart.svg" class="cart"></li>
+            <li> <img src="image-avatar.png" class="avatar"></li>
+        </ul>
+    </nav>
+    </header>
+    <hr class="linha">
+    <div class="div1">
+        <img src="./image-product-1.jpg" class="produto1">
+    <section class="section1">
+        <p class="subtitle"> SNEAKER COMPANY</p>
+        <h1>Fall Limited Edition <br> Sneakers</h1>
+        <p class="description"> These low-profile sneakers are your perfect casual wear<br> companion. Featuring a durable rubber outer sole, they'll <br>withstand everything the weather can offer.</p>
+        <p class="valor">$125.00</p>
+        <p class="desconto">50%</p>
+        <p class="anterior">$250.00</p>
+    </section>
+    </div>
+    <div class="div2">
+        <input class="compras" type="number" id="quantidade" name="quantidade" value="1" min="1">
+        <button><img src="./icon-cart.svg" class="botão-cart">  Add to cart </button>
+    </div>
+    <div class="div3">
+        <img src="./image-product-1.jpg" class="foto">
+        <img src="./image-product-2.jpg" class="foto">
+        <img src="./image-product-3.jpg" class="foto">
+        <img src="./image-product-4.jpg" class="foto">
+    </div>
+</body>
+</html>
